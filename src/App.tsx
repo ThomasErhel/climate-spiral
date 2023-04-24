@@ -1,23 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import ClimateSpiral from "./ClimateSpiral";
 
 function App() {
+  const [uniqueKey] = useState(Date.now());
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ClimateSpiral
+          dataUrl="giss-data-apr-11-2023.csv"
+          key={`climate-spiral-${uniqueKey}`}
+        />
       </header>
     </div>
   );
