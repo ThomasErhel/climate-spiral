@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/climate-spiral/static/css/main.7e9b7937.css",
+    "main.js": "/climate-spiral/static/js/main.89d545a7.js",
+    "static/js/787.901a76f2.chunk.js": "/climate-spiral/static/js/787.901a76f2.chunk.js",
+    "index.html": "/climate-spiral/index.html",
+    "main.7e9b7937.css.map": "/climate-spiral/static/css/main.7e9b7937.css.map",
+    "main.89d545a7.js.map": "/climate-spiral/static/js/main.89d545a7.js.map",
+    "787.901a76f2.chunk.js.map": "/climate-spiral/static/js/787.901a76f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e9b7937.css",
+    "static/js/main.89d545a7.js"
+  ]
+}
